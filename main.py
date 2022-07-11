@@ -10,9 +10,9 @@ white = (255, 255, 255)
 
 #icon from flaticon, caption, background, font
 pygame.display.set_caption("Pong")
-icon = pygame.image.load(r"C:\Users\Arian\Documents\Programming\Python\Pong\icon.png")
+icon = pygame.image.load("icon.png")
 pygame.display.set_icon(icon)
-font = pygame.font.Font(r"C:\Users\Arian\Documents\Programming\Python\Pong\font.ttf", 32)
+font = pygame.font.Font("font.ttf", 32)
 
 #the variables and picture of the rectangles for the player
 def drawrect(x,y):
